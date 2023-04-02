@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #fff;
+    background-color: rgba(32, 33, 36, 1);
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    height: 50px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-menu li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    margin-right: 20px;
+}
+
+#bar-icon {
+    font-size: 20px;
+}
+
+.prof-pic {
+    background-size: 32px 32px;
+    border-radius: 50%;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.main-contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search-bar {
+    text-align: center;
+    width: 600px;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 25px;
+    border: 1px solid #fafcff3a;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    background-color: rgba(32, 33, 36, 1);
+}
+
+.search-bar:hover {
+    background-color: #5f636854;
+    transition: all 0.2s;
+}
+
+.main-contents a {
+    position: absolute;
+}
+
+
+#search-logo {
+    cursor: pointer;
+    font-size: 20px;
+    color: #5f6368;
+    margin-right: 560px;
+    margin-top: 123px;
+}
+
+#mic-logo {
+    cursor: pointer;
+    font-size: 20px;
+    color: #5f6368;
+    margin-right: 20px;
+    margin-left: 480px;
+    margin-top: 123px;
+}
+
+#cam-logo {
+    cursor: pointer;
+    font-size: 20px;
+    color: #5f6368;
+    margin-left: 550px;
+    margin-top: 123px;
+}

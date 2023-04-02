@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap');
+
+.hero {
+    background-image: url("https://wallpapercave.com/wp/wp8991420.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 20px 0 500px 0;
+    text-align: center;
+
+}
+body {
+    color: #ADDDD0;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    font-size: x-large;
+    margin: 0;
+}
+h1 {
+    text-shadow: 0 0 5px whitesmoke;
+}
+#mainlogo{
+    width: 300px;  
+    padding-top: 20px;
+}
+.tac {
+    color: #181818;
+    text-shadow: 3px 3px royalblue;
+    background-color: skyblue;
+    margin: 0;
+    padding: 50px 0;
+    background-attachment: fixed;
+}
+.btn {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    background-color: #181818;
+    border-color: transparent;
+    border-style: groove;
+    border-radius: 15px;
+    color: #ADDDD0;
+    padding: 10px 40px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.exp {
+    text-decoration: underline 5px;
+}
